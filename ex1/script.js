@@ -1,11 +1,11 @@
 let contador = -1
 
 while (contador <= 0){
-    contador = Number(prompt("Digite um número positivo:"));
+    contador = Number(prompt("Escreva um número positivo:"));
 
     if(contador <= 0){
-        alert("Esse número não é possitivo");
+        alert("esse número não é positivo");
     }
 
 }
-alert("Esse número é positivo.")
+alert("O número é positivo.")
